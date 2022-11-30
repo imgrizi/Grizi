@@ -1,6 +1,18 @@
-body{
-    background-color: red;
+@font-face {
+    font-family: pacifico;
+    src:url('../fontes/Pacifico-Regular.ttf');
 }
+
+
+
+body{
+    background: red;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+
+}
+    
 
 .wrapper{
     background-color: yellow;
@@ -12,30 +24,85 @@ header{
     width:100%;
     height:44px;
     background-color: #ffffffff;
+    float: left;
+    font-family: 'pacifico';
+    font-weight: bold;
+}
+header .col-3 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#727a82;
+    border: 2px #dee1e3 solid;
+    width: 100px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+
+}
+header .col-3 a:hover{
+background:#dee1e3
+
 }
 
 .hero{
     width: 100%;
     height:477px;
-    background-color: salmon;
+    background:purple url('../images/images/banner.jpg') top center no-repeat;
+    background-size: cover;
+    float: left;
+       
 }
+
+.titulo{
+
+    width: 50%;
+    min-height: 150px;
+    text-align: center;
+margin-left: 25%;
+margin-top: 10%;
+float: left;
+
+}
+
+.titulo h1{
+    color:#25A2C3;
+    
+}
+
+.titulo button{
+    color: white;
+    background-color:  #f6755e;
+    border:none;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+
+
+}
+
+
 
 .articles{
     width: 100%;
     height: 500px;
     background-color: white;
+    float: left;
 }
 
 .highlights{
     width: 100%;
     height: 200px;
     background-color: purple;
+    float: left;
 }
 
 .latest-news{
     width: 100%;
     height: 150px;
     background-color:gold ;
+    float: left;
 }
 .col-1{
     width: 20%;
@@ -56,6 +123,6 @@ header{
 .col-3{
     width: 20%;
     height: 44px;
-    background-color: lightgrey;
+
     float:left
 }
