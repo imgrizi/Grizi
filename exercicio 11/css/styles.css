@@ -1,0 +1,25 @@
+.menup li{
+    width:calc(25% - 2px);
+    float:left;
+    border: 1px solid red;
+    text-align: center;
+}
+.menudrop{
+    display: none;
+}
+
+.menudrop li{
+    width: 100%;
+}
+.menup li:hover .menudrop{
+    display: block;
+}
+.menup li:hover{
+    background-color: yellow;
+}
+.menudrop2 li:hover{
+    background-color: green;
+}
+
+
+
