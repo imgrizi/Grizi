@@ -24,6 +24,7 @@ animation:animaCaixa 3s forwards;
 
 .cx-3:hover{
     animation: animaCaixa3 5s;
+    cursor: pointer;
 }
 
 
